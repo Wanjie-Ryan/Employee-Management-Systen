@@ -1,5 +1,4 @@
-﻿using Employee_Management_Systen.UI;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Employee_Management_Systen
+namespace Employee_Management_Systen.UI
 {
-    public partial class Register : Form
+    public partial class Login : Form
     {
-        public Register()
+        public Login()
         {
             InitializeComponent();
         }
@@ -21,12 +20,6 @@ namespace Employee_Management_Systen
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void btnSignin_Click(object sender, EventArgs e)
-        {
-            Login loginform = new Login();
-            loginform.Show();
         }
     }
 }

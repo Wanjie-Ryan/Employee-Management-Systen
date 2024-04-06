@@ -112,6 +112,7 @@
             this.btnSignin.TabIndex = 3;
             this.btnSignin.Text = "SIGN IN";
             this.btnSignin.UseVisualStyleBackColor = false;
+            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
             // panel2
             // 
@@ -149,6 +150,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label2
             // 
